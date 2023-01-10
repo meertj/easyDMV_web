@@ -1,0 +1,138 @@
+/* Old Vanilla CSS*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+main h2 {
+  margin: 0;
+}
+
+main p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+main button {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+form {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+form label {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="tel"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+form select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+form button[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button {
+  font-size: 18px;
+  color: white;
+  background-color: #006699;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
